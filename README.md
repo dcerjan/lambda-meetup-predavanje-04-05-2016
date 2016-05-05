@@ -14,15 +14,14 @@ Dostupni primjeri:
 ```sh
 cd ./Code
 
-clang -D{example} main.c -o macros && ./macros
-# -- ili --
-gcc -D{example} main.c -o macros && ./macros
+# clang ili gcc, kompajliranje i pokretanje primjera
+{clang, gcc} -D{example} main.c -o macros && ./macros
 
 # pokretanje WTF example-a
-{clang, gcc} -DWTF main.c -o macros && ./macros
+clang -DWTF main.c -o macros && ./macros
 
 # pregledavanje expandanog koda (ne expanda __LINE__, __FILE__ i __FUNCTION__)
-{clang, gcc} -DWTF -E main.c | less
+clang -DWTF -E main.c | less
 ```
 
 - Types.h sadrži helper code i typedefove za neke ugrađene tipove (npr unsigned int -> UInt) i definiciju Show makroa
