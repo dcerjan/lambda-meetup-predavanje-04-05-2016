@@ -30,4 +30,4 @@ gcc -D{example} main.c -o macros && ./macros
 - main.c sadrži entripoint u egzekutabilac i implementacije primjera
 
 
-Ako itko ima ikakvih zamjerki ili ispravki ili uoči propust/nelogičnost, bio bih jako zadovoljan da mi javi pa da to ispravim na domagoj.cerjan@gmail.com :)
+Ako itko ima ikakvih zamjerki ili ispravki ili uoči propust/nelogičnost, bio bih jako zahvalan da mi javi pa da to ispravim na domagoj.cerjan@gmail.com :)
