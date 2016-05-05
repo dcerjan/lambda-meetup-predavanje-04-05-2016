@@ -21,7 +21,7 @@ gcc -D{example} main.c -o macros && ./macros
 # pokretanje WTF example-a
 {clang, gcc} -DWTF main.c -o macros && ./macros
 
-# pregleda expandanog koda (ne expanda __LINE__, __FILE__ i __FUNCTION__)
+# pregledavanje expandanog koda (ne expanda __LINE__, __FILE__ i __FUNCTION__)
 {clang, gcc} -DWTF -E main.c | less
 ```
 
